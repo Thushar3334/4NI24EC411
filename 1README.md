@@ -26,11 +26,11 @@ Id = 1/2 kn Vov2 ; Vov=Vgs-Vth and kn=un Cox W/L
 ## TRANSIENT ANALYSIS:
 ### Click on simulate and select transient.
 ![1 waveform](https://github.com/user-attachments/assets/3efbf6de-bcfd-4465-9c0d-7259e989fdc0)
-### figure:shows the output andt input waveform for transient analysis.
+### figure: shows the output andt input waveform for transient analysis.
 ## AC ANALYSIS:
 ### Go to simulate and select ac analysis:
 ![2 waveform](https://github.com/user-attachments/assets/eaeb7c03-b942-4f4c-971b-2f20102bf226)
-### figure:shows the output of ac analysis.
+### figure: shows the output of ac analysis.
 ## RESULT:
 * ID:2.7082e-005
 * Got all the output waveforms for all DC, AC and transient analysis.
