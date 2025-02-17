@@ -22,7 +22,7 @@ Id = 1/2 kn Vov2 ; Vov=Vgs-Vth and kn=un Cox W/L
 ## DC ANALYSIS
 ### Click on simulate and select dc op pnt.
 ![dcoppnt 1](https://github.com/user-attachments/assets/b61e8a22-3fc6-4117-883b-609504347910)
-### figure: showa the output of dc analysis
+### figure: shows the output of dc analysis
 ## TRANSIENT ANALYSIS:
 ### Click on simulate and select transient.
 ![1 waveform](https://github.com/user-attachments/assets/3efbf6de-bcfd-4465-9c0d-7259e989fdc0)
