@@ -18,7 +18,8 @@ Id = 1/2 kn Vov2 ; Vov=Vgs-Vth and kn=un Cox W/L
 * we get the drain current as,
 * Id=5.55e-005A
 ## CIRCUIT DIAGRAM:
-![2nd ckt](https://github.com/user-attachments/assets/3d01c50d-27c5-4c51-a557-fda3f264ad7d)
+![Ckt 1](https://github.com/user-attachments/assets/f9519e8b-bfa9-4177-8720-59d38c2b574c)
+
 ## DC ANALYSIS
 ### Click on simulate and select dc op pnt.
 ![dcoppnt 1](https://github.com/user-attachments/assets/b61e8a22-3fc6-4117-883b-609504347910)
