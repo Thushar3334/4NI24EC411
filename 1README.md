@@ -48,3 +48,51 @@ Id = 1/2 kn Vov2 ; Vov=Vgs-Vth and kn=un Cox W/L
 ### These steps allow you to analyze the circuit’s behavior under different conditions, including biasing, frequency response, and time-based responses.
 
 
+# CIRCUIT-2:
+![2nd ckt](https://github.com/user-attachments/assets/bf9c1c48-6551-4cbf-8f35-4d8981e7369d)
+## PROCEDURE:
+* Create a New Folder and Save LTSpice File
+Create a folder named Project File.
+In LTSpice, save your schematic in this folder.
+* Set MOSFETs (CMOSN & CMOSP)
+CMOSN (N-Channel MOSFET):
+Name it CMOSN, set L = 180nm, W = 1.08µm.
+CMOSP (P-Channel MOSFET):
+Name it CMOSP, set L = 180nm, W = 134µm.
+* DC Analysis
+Connect the MOSFETs as per the circuit (PMOS to Vdd, NMOS to GND, Gate to input signal).
+Apply Vdd = 1.8V and Vgs = 0.3V.
+Go to Simulate → Edit Simulation Cmd, select DC Analysis (.op), click OK, and run to get Vout and Id.
+* Transient Analysis
+Apply Vgs = 0.3V with a 50mV amplitude and 1kHz frequency sine wave.
+Go to Simulate → Edit Simulation Cmd, select Transient Analysis, and click OK. Run to observe the time-domain response.
+* AC Analysis
+Add the library file path in the spice directive.
+Go to Simulate → Edit Simulation Cmd, select AC Analysis, and click OK. Run to analyze gain and frequency response.
+## DC ANAALYSIS:
+![DCOPPNT2](https://github.com/user-attachments/assets/8f48b476-5d11-42fe-8d82-86ac8afe5959)
+###figure: shows the output of dc analysis
+## TRANSIENT ANALYSIS:
+![tran op 2nd](https://github.com/user-attachments/assets/8f18ade5-a82e-49e2-b6de-3e5e5c4f6360)
+### figure: shows the output for transient analysis.
+![tran ip 2nd](https://github.com/user-attachments/assets/502f9520-8611-43d2-b1a5-fb26dab65f8b)
+### figure: shows the input for transient analysis.
+## AC ANALYSIS:
+![Ac ana 2nd](https://github.com/user-attachments/assets/2aabfa2d-cd23-4d26-b54e-f0c991bcc7f9)
+### figure:shows the output of ac analysis.
+## inference:
+* Id vs. Width: The drain current (Id) depends on the width (W) of the MOSFET. As W increases, Id increases, assuming other factors remain constant.
+
+* DC Analysis: Ensures proper biasing so that the MOSFET operates in saturation, stabilizing the Q-point for reliable performance.
+
+* Transient Analysis: Shows how the circuit responds to time-varying signals, essential for high-speed applications where quick responses are critical.
+
+* AC Analysis: Focuses on the circuit's frequency response, gain, and impedance, helping in designing circuits with desired performance and small-signal behavior.
+
+* Combined Analyses: All these analyses work together to design and optimize amplifiers, ensuring proper operation under both steady-state (DC) and dynamic (AC) conditions.
+
+
+
+
+
+
