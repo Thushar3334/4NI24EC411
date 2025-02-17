@@ -14,9 +14,18 @@ The drain current
 
 Id = 1/2 kn Vov2 ; Vov=Vgs-Vth and kn=un Cox W/L
 ## PROCEDURE:
-* BY using the power formula P=V*I 
-* we get the drain current as,
-* Id=5.55e-005A
+* Create Folder: Make a folder named "project file".
+* MOSFET:
+NMOS: Name it CMOSN, set L = 180n, W = 3u.
+PMOS: Name it CMOSP, set L = 180n, W = 3u.
+* DC Analysis:
+* Apply Vdd = 1.8V, Vgs = 0.9V.
+*Set up DC analysis .op, run to get Vout and Id.
+* Transient Analysis:
+* Set Vgs = 0.9V, Amplitude = 50mV, Freq = 1kHz.
+* AC Analysis:
+* Add library path, set .ac dec 20 .1 1T.
+* Run to analyze frequency response.
 ## CIRCUIT DIAGRAM:
 ![Ckt 1](https://github.com/user-attachments/assets/f9519e8b-bfa9-4177-8720-59d38c2b574c)
 
