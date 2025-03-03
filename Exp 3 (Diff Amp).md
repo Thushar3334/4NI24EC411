@@ -47,10 +47,10 @@ Vin = 1-0.90
 Vout = 1.52-0.65
 ### Input and Output:
 ![1st ckt tran in out](https://github.com/user-attachments/assets/935a347e-eadf-48d2-b0e1-46490301e981)
-Gain = Vout/Vin
-     = 0.87/0.1
-     = 8.7
-Gain in dB = 20 log (8.7)
+Gain = Vout/Vin                                                                                                                                                           
+     = 0.87/0.1                                                                                                                                                           
+     = 8.7                                                                                                                                                                
+Gain in dB = 20 log (8.7)                                                                                                                                                  
            = 18.79 dB
 ## AC Analysis:
 ![1st ckt ac out](https://github.com/user-attachments/assets/bd44c756-783e-42ba-9781-613fd8192f29)
@@ -58,12 +58,12 @@ Gain in dB = 20 log (8.7)
 # CIRCUIT 2:
 ![2nd ckt](https://github.com/user-attachments/assets/50941e26-da4d-4906-a72b-fb7f1013a191)
 ## DC Analysis:
-![2nd ckt dc](https://github.com/user-attachments/assets/15b50f56-ecd5-46e1-8c4d-52e8f0732417)
-ID1 : 0.61mA
-ID2 : 0.61mA
-Iss : 1.22mA
-Vocm : 1.1V
-Vicm : 0.95V
+![2nd ckt dc](https://github.com/user-attachments/assets/15b50f56-ecd5-46e1-8c4d-52e8f0732417)                                                                                                                     
+ID1 : 0.61mA                                                                                                                                                                
+ID2 : 0.61mA                                                                                                                                                                
+Iss : 1.22mA                                                                                                                                                                
+Vocm : 1.1V                                                                                                                                                                     
+Vicm : 0.95V                                                                                                                                                                
 ## Transient Analysis:
 ### Input:
 ![2nd ckt tran inp](https://github.com/user-attachments/assets/e3ec1281-4fb3-4097-9d52-fd72c58a0cf3)
