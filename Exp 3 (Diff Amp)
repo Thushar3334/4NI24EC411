@@ -1,17 +1,21 @@
-# BASIC DIFFERENTIAL AMPLIFIER
+### BASIC DIFFERENTIAL AMPLIFIER
+
 ## Aim:
 To design and analyse the MOS Differential Amplifier
+
 ## COMPONENTS REQUIRED:
 * N Channel Mosfet (nmos4)
 * Resistor (1.14k, 327.8)
 * Voltage source
 * Current source
 * Signal Generator
+
 # THEORY:
 A MOS differential amplifier amplifies the difference between two input signals while rejecting common-mode signals. It uses two MOSFETs biased in the saturation region, acting as controlled current sources.
 * Differential Mode: The output voltage is proportional to the difference in input voltages, given by Vout= gm x (Vin1 - Vin2) where gm is transconductance and Rd is the load resistance.
 * Common-Mode: If the inputs are the same, the output ideally is zero, rejecting common-mode signals.
 This amplifier is used in applications like operational amplifiers, where noise rejection and differential signal amplification are needed.
+
 # PROCEDURE:
 1. Open LTspice and Create a New Schematic
 2. Place MOSFETs
@@ -24,7 +28,9 @@ This amplifier is used in applications like operational amplifiers, where noise 
 9. Add Simulation Command
 10. Run the Simulation
 11. View the Results
+
 # CIRCUIT 1:
+
 
 
 
